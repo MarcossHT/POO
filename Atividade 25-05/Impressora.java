@@ -22,8 +22,8 @@ public class Impressora {
         if (temPapel()) {
             folhasDisponiveis--;
             System.out.println(texto);
-        }
-        System.out.println("Impressora sem folhas disponiveis");
+        } else { System.out.println("Impressora sem folhas disponiveis");}
+
     }
     public void getFolhas() {
         System.out.println(folhasDisponiveis);
